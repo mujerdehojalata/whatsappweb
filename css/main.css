@@ -172,6 +172,8 @@ p{
    justify-content:space-between;
    align-items:center;
 }
+
+
 .chat{
     background-image:url(../image/chat-panel-bg.png);
     background-color:#EDE9E4;
@@ -179,6 +181,32 @@ p{
     display: flex;
     flex-direction:column;
     flex-wrap:no-wrap;
+}
+
+.recibido{
+    background-color:white;
+    padding:20px;
+    margin:5px;
+    width: 40%;
+     /*flex*/
+   display: flex;
+   flex-direction:row;
+   justify-content:space-between;
+   align-items:center; 
+   flex-wrap:no-wrap;
+}
+
+.enviado{
+    background-color:#DCF8C6;
+    width:30%;
+    padding:20px;
+    margin:5px;
+    
+    /*flex*/
+   display: flex;
+   flex-direction:column;
+   justify-content:space-between;
+   
 }
 
 /*-----------------mediaqueries---*/
