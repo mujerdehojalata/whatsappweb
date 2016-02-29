@@ -77,9 +77,29 @@ p{
    align-items:center;
 }
 
+.list-chat {
+    height:500px;
+    overflow: auto;
+}
+
+.scroll-bar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.scroll-bar::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #CACACA;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb
+{
+	background-color:  #CACACA;
+}
 
 .elemento{
-    overflow:auto;
      /*flex*/ 
    display: flex;
    justify-content:space-between;
@@ -146,7 +166,12 @@ p{
     flex-direction:column;
 }
 
-
+.elemento avatar-lab{
+    display: flex;
+   flex-direction:row;
+   justify-content:space-between;
+   align-items:center;
+}
 .chat{
     background-image:url(../image/chat-panel-bg.png);
     background-color:#EDE9E4;
